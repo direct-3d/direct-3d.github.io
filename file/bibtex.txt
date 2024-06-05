@@ -1,6 +1,7 @@
-@article{liu2023intriguing,
-  title={Intriguing Properties of Text-guided Diffusion Models},
-  author={Liu, Qihao and Kortylewski, Adam and Bai, Yutong and Bai, Song and Yuille, Alan},
-  journal={arXiv preprint arXiv:2306.00974},
-  year={2023}
+@inproceedings{liu2024direct,
+  title={DIRECT-3D: Learning Direct Text-to-3D Generation on Massive Noisy 3D Data},
+  author={Liu, Qihao and Zhang, Yi and Bai, Song and Kortylewski, Adam and Yuille, Alan L},
+  booktitle={41st IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2024},
+  organization={IEEE}
 }
