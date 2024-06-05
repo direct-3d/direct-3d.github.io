@@ -55,7 +55,7 @@ sup {
 
 
 .container {
-	width: 1000px;
+	width: 100%;
 	min-height: 1200px;
 	max-height: 999999px; /* prevents font boosting */
 	margin: 0 auto; /* top and bottom, right and left */

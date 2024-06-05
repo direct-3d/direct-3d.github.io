@@ -31,9 +31,18 @@
 
 <body>
     <p class="title">DIRECT-3D: Learning Direct Text-to-3D Generation on Massive Noisy 3D Data</p>
-    <div style="text-align: center; font-size: 40pt; margin-bottom: 30px">
+    <!-- <div style="text-align: center; font-size: 40pt; margin-bottom: 30px"> -->
             <!-- <span>CVPR 2023</span> -->
-    </div>
+    <!-- </div> -->
+    &nbsp;<br>
+    <table width="80%" border="0" align="center" class="menu" style="margin-bottom: 8px; font-size: 26px;">
+        <tbody>
+            <tr>
+                <td style="text-align: center; width:0%; ">CVPR 2024</td>
+            </tr>
+        </tbody>
+    </table>
+    &nbsp;<br>
     <p class="author">
         <span class="author"><a target="_blank" href="https://qihao067.github.io/">Qihao Liu</a>&nbsp;<sup>1</sup></span>
         <span class="author"><a target="_blank" href="https://edz-o.github.io/">Yi Zhang</a>&nbsp;<sup>1</sup></span>
@@ -52,37 +61,105 @@
         </tbody>
     </table>
 
-    <table width="80%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
-        <tbody>
-            <tr>
-                <td style="text-align: center; width:0%; ">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</td>
-            </tr>
-        </tbody>
-    </table>
 
     <table width="80%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
         <tbody>
             <tr>
-                <td align="center"> <a href="" target="_blank">[Paper]</a>&emsp;&emsp;<a href="https://direct-3d.github.io/file/bibtex.txt">[BibTeX]</a> </td>
+                <td align="center"> <a href="" target="_blank">[Paper]</a>&emsp;&emsp;<a href="https://github.com/qihao067/direct3d">[Code & Models]</a>&emsp;&emsp;<a href="https://direct-3d.github.io/file/bibtex.txt">[BibTeX]</a> </td>
             </tr>
         </tbody>
     </table>
+
+    &nbsp;<br>
+    &nbsp;<br>
+
+    
+    
     <div class="container">
 
-        &nbsp;<br>
-        &nbsp;<br>
-
-        
-        <table width="940" border="0">
+        <table width="100%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
             <tbody>
-                <figure>
-                    <img src="./img/AttDis_fig1.jpg" alt="" width="990" style="margin: auto" />
-                </figure>
+                <tr>
+                    <td style="text-align: center; width:0%; ">DIRECT-3D is a new text-to-3D generative model that directly generates 3D contents in a single forward pass without optimization:</td>
+                </tr>
+            </tbody>
+        </table>
+        &nbsp;<br>
 
-                <ul>
-                    <li>We propose SAGE, the first automated method to systematically find failure modes of diffusion models by searching over the discrete prompt space and the high-dimensional latent space.</li>
-                    <li>We conduct a comprehensive analysis of the failure modes of SOTA generative models. Our investigation delves deeply into four intriguing unexpected behaviors that have not been systematically studied before.</li>
-                </ul>
+
+
+        <!-- <table width="940" border="0"> -->
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <tr>
+                    <td style="text-align: left;; width:0%; "><li>It can generate high-quality 3D objects with accurate geometric details and various textures in 12 seconds on a single V100, driven by text prompts.</li>
+                </tr>
+            </tbody>
+        </table>
+        <table width="80%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/teaser1.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:25%; font-size: 12px;"><em>a Wall-E</em></td>
+                    <td style="text-align: center; width:25%; font-size: 12px;"><em>an astronaut wearing a colorful spacesuit</em></td>
+                    <td style="text-align: center; width:25%; font-size: 12px;"><em>a Transformed Bumblebee robot with intricate body details</em></td>
+                    <td style="text-align: center; width:25%; font-size: 12px;"><em>a batman mask</em></td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="80%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/teaser2.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:25%; font-size: 12px;"><em>a biplane with yellow wings</em></td>
+                    <td style="text-align: center; width:25%; font-size: 12px;"><em>a voxelized cupcake made with LEGO</em></td>
+                    <td style="text-align: center; width:25%; font-size: 12px;"><em>the Statue of Liberty, aerial view</em></td>
+                    <td style="text-align: center; width:25%; font-size: 12px;"><em>an french throne chair</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        &nbsp;<br>
+
+        <!-- <table width="940" border="0"> -->
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <tr>
+                    <td style="text-align: left;; width:0%; "><li>It also provides easy-to-use and effective 3D geometry prior that significantly alleviates the Janus problem in 2D-lifting methods.</li>
+                </tr>
+            </tbody>
+        </table>
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/teaser3.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/teaser4.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <tr>
+                    <td style="text-align: center; width:0%; font-size: 16px;"><em>(3D prior from DIRECT-3D eliminates the Janus problem.)</em></td>
+                </tr>
             </tbody>
         </table>
 
@@ -91,7 +168,7 @@
         &nbsp;<br>
 
         <p style="text-align: center;"><span class="section"><strong>Abstract</strong></span></p>
-        <p> Text-guided diffusion models (TDMs) are widely applied but can fail unexpectedly. Common failures include: (i) natural-looking text prompts generating images with the wrong content, or (ii) different random samples of the latent variables that generate vastly different, and even unrelated, outputs despite being conditioned on the same text prompt. In this work, we aim to study and understand the failure modes of TDMs in more detail. To achieve this, we propose SAGE, the first adversarial search method on TDMs that systematically explores the discrete prompt space and the high-dimensional latent space, to automatically discover undesirable behaviors and failure cases in image generation. We use image classifiers as surrogate loss functions during searching, and employ human inspections to validate the identified failures. For the first time, our method enables efficient exploration of both the discrete and intricate human language space and the challenging latent space, overcoming the gradient vanishing problem. Then, we demonstrate the effectiveness of SAGE on five widely used generative models and reveal four typical failure modes that have not been systematically studied before: (1) We find a variety of natural text prompts that generate images failing to capture the semantics of input texts. We further discuss the underlying causes and potential solutions based on the results. (2) We find regions in the latent space that lead to distorted images independent of the text prompt, suggesting that parts of the latent space are not well-structured. (3) We also find latent samples that result in natural-looking images unrelated to the text prompt, implying a possible misalignment between the latent and prompt spaces. (4) By appending a single adversarial token embedding to any input prompts, we can generate a variety of specified target objects, with minimal impact on CLIP scores, demonstrating the fragility of language representations.
+        <p> We present DIRECT-3D, a diffusion-based 3D generative model for creating high-quality 3D assets (represented by Neural Radiance Fields) from text prompts. Unlike recent 3D generative models that rely on clean and well-aligned 3D data, limiting them to single or few-class generation, our model is directly trained on extensive noisy and unaligned ‘in-the-wild’ 3D assets, mitigating the key challenge (i.e., data scarcity) in large-scale 3D generation. In particular, DIRECT-3D is a tri-plane diffusion model that integrates two innovations: 1) A novel learning framework where noisy data are filtered and aligned automatically during the training process. Specifically, after an initial warm-up phase using a small set of clean data, an iterative optimization is introduced in the diffusion process to explicitly estimate the 3D pose of objects and select beneficial data based on conditional density. 2) An efficient 3D representation that is achieved by disentangling object geometry and color features with two separate conditional diffusion models that are optimized hierarchically. Given a prompt input, our model generates high-quality, high-resolution, realistic, and complex 3D objects with accurate geometric details in seconds. We achieve state-of-the-art performance in both single-class generation and text-to-3D generation. We also demonstrate that DIRECT-3D can serve as a useful 3D geometric prior of objects, for example to alleviate the well-known Janus problem in 2D-lifting methods such as DreamFusion
         <p class="section">&nbsp;</p>
 
         &nbsp;<br>
@@ -101,71 +178,394 @@
         <p style="text-align: center;"><span class="section"><strong>Method</strong></span></p>
         <p class="section">&nbsp;</p>
         <div style="text-align: center">
-            <img src="./img/pipeline.jpg" alt="" width="990" style="margin: auto" />
+            <img src="./img/3dDiff_pipeline.jpg" alt="" width="100%" style="margin: auto" />
         </div>
         <p class="section">&nbsp;</p>
-        <p> Given a text-guided generative model <i>G</i>, we want to automatically find natural text prompts <i>p</i> or non-outlier latent variables <i>z</i> that generate failure images. We formulate it as an adversarial optimization process. A gradient-guided search policy <i>P</i> is proposed to enable efficient search over the discrete prompt space, and the residual connection is used to back-propagate the gradient from outputs <i>I</i> to the inputs of latent variable. Finally, an ensemble of discriminative models is used to obtain a robust discriminator <i>D</i> to find true failures of the generative model <i>G</i>.</p>
-        <p class="section">&nbsp;</p>
-
-        <hr class="hr-twill-colorful">
-
-        <p class="section">&nbsp;</p>
-
-        <p style="text-align: center;"><span class="section"><strong>Typical Failure Modes</strong></span></p>
-
-        <p class="section">&nbsp;</p>
-
-        <p class="section"><b>I.  Natural Text Prompts that are Unintelligible for Diffusion Models</b></p>
-        <p> We find a large number of concise text prompts (at most 15 words) that are natural and easily understood by humans but not by the SOTA diffusion models. Current models still struggle to grasp and describe certain linguistic representations. We manually summarize the key features and categorize them into ten distinct types, based on the underlying causes. Current models are good at understanding objects, but may be confused by specific actions ('fighting' in a), and may struggle to understand the relationship between nouns and verbs (b), nouns and adjectives (c), subjects and objects (d), and words with salient features (e). In addition, they often do not comprehend compositions (f), numbers (g), parts (h), viewpoints (i), and fractions (j).</p>
-        <div style="text-align: center">
-            <img src="./img/EXP-attText.jpg" alt="" width="990" style="margin: auto" />
-        </div>
-        <p class="section">&nbsp;</p>
-
-
-        <p class="section"><b>II.  Latent Samples that Lead to Distorted Images</b></p>
-        <p> We find samples/regions in the latent space that consistently lead to distorted images under various commonly used prompts, implying that parts of the latent space are not well-structured. We also show that both generative models and discriminative models have representation biases that differ from those of human vision.</p>
-        <div style="text-align: center">
-            <img src="./img/EXP-attZ-distorted.jpg" alt="" width="990" style="margin: auto" />
-        </div>
-        <p class="section">&nbsp;</p>
-
-
-        <p class="section"><b>III.  Latent Samples that Do Not Depict the Key Object but Correlated Background</b></p>
-        <p> We find latent samples that generate objects commonly associated with the key object, rather than generating the key object class itself. It indicates a partial misalignment between the latent space and the prompt space. Furthermore, we demonstrate the correlation between this misalignment and the stability of diffusion models.</p>
-        <div style="text-align: center">
-            <img src="./img/EXP-attZ-unrelated.jpg" alt="" width="990" style="margin: auto" />
-        </div>
-        <p class="section">&nbsp;</p>
-
-
-        <p class="section"><b>IV.  Universal Token Embeddings that Overwrite the Input Prompts</b></p>
-        <p> We also find adversarial token embeddings, which only slightly change the CLIP score, but cause the diffusion model to produce irrelevant images. These adversarial embeddings are universal in the sense that they cause failures across a variety of input prompts. It also reveals potential safety concerns.</p>
-        <div style="text-align: center">
-            <img src="./img/EXP-attPrompt.jpg" alt="" width="990" style="margin: auto" />
-        </div>
+        <p> Given a prompt, we generate a NeRF with two modules: The disentangled tri-plane diffusion module uses 2 (or 4 if the super-resolution plug-in is used) diffusion models to generate geometry <i>(fg)</i> and color <i>(fc)</i> tri-plane separately. Then both tri-planes are reshaped and fed into a NeRF auto-decoder to get the final outputs. During training, an iterative optimization process is introduced in the geometry diffusion to explicitly model the pose <i>θ</i> of objects and select beneficial ones, enabling efficient training on noisy ‘in-the-wild’ data. The whole model is end-to-end trainable (with or without 3D Super Resolution plug-in), with only multi-view 2D images as supervision.</p>
         <p class="section">&nbsp;</p>
 
         <hr class="hr-twill-colorful">
 
         <p class="section">&nbsp;</p>
-        <p class="section"><b>More Results</b></p>
-        <p> We provide additional representative text prompts that diffusion models cannot understand.</p>
-        <div style="text-align: center">
-            <img src="./img/Supp_text1.jpg" alt="" width="990" style="margin: auto" />
-        </div>
-        <div style="text-align: center">
-            <img src="./img/Supp_text2.jpg" alt="" width="990" style="margin: auto" />
-        </div>
-        <div style="text-align: center">
-            <img src="./img/Supp_text3.jpg" alt="" width="990" style="margin: auto" />
-        </div>
-        <div style="text-align: center">
-            <img src="./img/Supp_text4.jpg" alt="" width="990" style="margin: auto" />
-        </div>
-        <div style="text-align: center">
-            <img src="./img/Supp_text5.jpg" alt="" width="990" style="margin: auto" />
-        </div>
+
+        <p style="text-align: center;"><span class="section"><strong>Direct Text-to-3D Generation</strong></span></p>
+
+        <p class="section">&nbsp;</p>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/t23d-1.gif" alt="" style="width: 90%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a baby grand piano</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a batman mask</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a beautiful white daisy</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a biplane with yellow wings</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a birthday cupcake</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/t23d-2.gif" alt="" style="width: 90%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a bowl of food</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a brown boot</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a campfire</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a chair that looks like a tree</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a chair that looks like an avocado</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/t23d-3.gif" alt="" style="width: 90%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a cheeseburger</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a diamond ring</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a donut with pink icing</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a firetruck</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a goldfish</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/t23d-4.gif" alt="" style="width: 90%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a green coffee mug</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a hypercube</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a kingfisher bird</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a lemon cut in half</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a minion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/t23d-5.gif" alt="" style="width: 90%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a model of a house in Tudor style</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a penguin</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a pumpkin</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a race car</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a red convertible car with the top down</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/t23d-6.gif" alt="" style="width: 90%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a soap dispenser</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a spanish galleon sailing on the open sea</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a statue of a black dog</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a traffic cone</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a Transformed Bumblebee robot with intricate body details</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/t23d-7.gif" alt="" style="width: 90%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a voxelized cupcake made with LEGO</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a voxelized dog</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a Wall-E</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>a yellow schoolbus</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>an astronaut</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/t23d-8.gif" alt="" style="width: 90%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>an elephant</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>an french throne chair</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>an orange road bike</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>the Statue of Liberty, aerial view</em></td>
+                    <td style="text-align: center; width:20%; font-size: 12px;"><em>Ube ice cream cone</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        
+        <p class="section">&nbsp;</p>
+
+        <hr class="hr-twill-colorful">
+
+        <p class="section">&nbsp;</p>
+        <p style="text-align: center;"><span class="section"><strong>Improving 2D-lifting Methods with 3D Prior</strong></span></p>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF1.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF2.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF3.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF4.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF5.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF6.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF7.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF8.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF9.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF10.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF11.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF12.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF13.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF14.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF15.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF16.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF17.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF18.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF19.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="90%" border="0" align="center" class="menu" style="margin-bottom: 8px;">
+            <tbody>
+                <figure style="text-align: center;">
+                    <img src="./img/DF20.gif" alt="" style="width: 80%; height: auto;">
+                </figure>
+                <tr>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>Ours + DreamFusion</em></td>
+                    <td style="text-align: center; width:50%; font-size: 16px;"><em>DreamFusion</em></td>
+                </tr>
+            </tbody>
+        </table>
+
+
 
         <!-- <p class="section">&nbsp;</p>
         <p class="section"><b>CVPR 2023 Video</b></p>
