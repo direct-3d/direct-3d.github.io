@@ -1,0 +1,6 @@
+@article{liu2023intriguing,
+  title={Intriguing Properties of Text-guided Diffusion Models},
+  author={Liu, Qihao and Kortylewski, Adam and Bai, Yutong and Bai, Song and Yuille, Alan},
+  journal={arXiv preprint arXiv:2306.00974},
+  year={2023}
+}
